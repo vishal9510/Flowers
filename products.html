@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Bloomchester</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="tailwind.css">
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Header -->
+  <header class="bg-pink-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <div class="flex items-center">
+        <img src="images/logo.png" alt="Logo" class="h-12 w-12 mr-2">
+        <h1 class="text-2xl font-bold">Bloomchester</h1>
+      </div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="index.html" class="hover:text-pink-300">Home</a></li>
+          <li><a href="about.html" class="hover:text-pink-300">About</a></li>
+          <li><a href="products.html" class="hover:text-pink-300">Products</a></li>
+          <li><a href="contact.html" class="hover:text-pink-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Products Section -->
+  <section class="py-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Our Bouquets</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Bouquet 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+          <img src="images/bouquet1.jpg" alt="Bouquet 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Classic Roses</h3>
+            <p class="text-gray-600">Rs. 50</p>
+          </div>
+        </div>
+        <!-- Bouquet 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+          <img src="images/bouquet2.jpg" alt="Bouquet 2" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Sunflower Delight</h3>
+            <p class="text-gray-600">Rs. 40</p>
+          </div>
+        </div>
+        <!-- Bouquet 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+          <img src="images/bouquet3.jpg" alt="Bouquet 3" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Tulip Harmony</h3>
+            <p class="text-gray-600">Rs. 30</p>
+          </div>
+        </div>
+        <!-- Add more bouquets as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 Bloomchester. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
